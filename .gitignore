@@ -1,0 +1,10 @@
+*.class
+*.jar
+*.iml
+/.idea/
+/out/
+/build/
+/store.db
+
+# Project exclude paths
+/.gradle/
