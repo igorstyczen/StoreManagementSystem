@@ -1,8 +1,8 @@
-package com.yourname.store.gui;
+package com.storemanagementsystem.store.gui;
 
-import com.yourname.store.dao.DAOException;
-import com.yourname.store.dao.impl.ProductDAOImpl;
-import com.yourname.store.entities.RetailProduct;
+import com.storemanagementsystem.store.dao.DAOException;
+import com.storemanagementsystem.store.dao.impl.ProductDAOImpl;
+import com.storemanagementsystem.store.entities.RetailProduct;
 
 import javax.swing.table.AbstractTableModel;
 import java.util.List;

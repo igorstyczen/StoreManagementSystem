@@ -6,12 +6,11 @@
     <session-factory>
         <property name="hibernate.connection.driver_class">org.sqlite.JDBC</property>
         <property name="hibernate.connection.url">jdbc:sqlite:store.db</property>
-        <property name="hibernate.dialect">org.hibernate.dialect.SQLiteDialect</property>
         <property name="hibernate.show_sql">true</property>
         <property name="hibernate.hbm2ddl.auto">update</property>
 
         <!-- Mapping annotated classes -->
-        <mapping class="com.yourname.store.entities.Product"/>
-        <mapping class="com.yourname.store.entities.Customer"/>
+        <mapping class="com.storemanagementsystem.store.entities.Product"/>
+        <mapping class="com.storemanagementsystem.store.entities.Customer"/>
     </session-factory>
 </hibernate-configuration>

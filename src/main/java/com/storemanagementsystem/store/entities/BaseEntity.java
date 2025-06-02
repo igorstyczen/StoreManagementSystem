@@ -1,4 +1,4 @@
-package com.yourname.store.entities;
+package com.storemanagementsystem.store.entities;
 
 import javax.persistence.MappedSuperclass;
 import javax.persistence.Id;

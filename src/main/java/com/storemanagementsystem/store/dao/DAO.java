@@ -1,4 +1,4 @@
-package com.yourname.store.dao;
+package com.storemanagementsystem.store.dao;
 
 import java.util.List;
 

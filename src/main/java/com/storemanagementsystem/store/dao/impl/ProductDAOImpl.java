@@ -1,9 +1,9 @@
-package com.yourname.store.dao.impl;
+package com.storemanagementsystem.store.dao.impl;
 
-import com.yourname.store.dao.DAOException;
-import com.yourname.store. dao.ProductDAO;
-import com.yourname.store.entities.RetailProduct;
-import com.yourname.store.util.DBConnection;
+import com.storemanagementsystem.store.dao.DAOException;
+import com.storemanagementsystem.store.dao.ProductDAO;
+import com.storemanagementsystem.store.entities.RetailProduct;
+import com.storemanagementsystem.store.util.DBConnection;
 
 import java.sql.*;
 import java.util.ArrayList;

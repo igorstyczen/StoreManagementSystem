@@ -1,6 +1,6 @@
-package com.yourname.store.dao;
+package com.storemanagementsystem.store.dao;
 
-import com.yourname.store.entities.RetailProduct;
+import com.storemanagementsystem.store.entities.RetailProduct;
 import java.util.List;
 
 public interface ProductDAO extends DAO<RetailProduct> {

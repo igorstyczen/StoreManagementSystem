@@ -1,4 +1,4 @@
-package com.yourname.store.util;
+package com.storemanagementsystem.store.util;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

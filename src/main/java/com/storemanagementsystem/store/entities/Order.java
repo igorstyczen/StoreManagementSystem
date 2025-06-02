@@ -1,4 +1,4 @@
-package com.yourname.store.entities;
+package com.storemanagementsystem.store.entities;
 
 import java.time.LocalDate;
 

@@ -1,9 +1,9 @@
-package com.yourname.store.gui;
+package com.storemanagementsystem.store.gui;
 
-import com.yourname.store.dao.DAOException;
-import com.yourname.store.dao.impl.ProductDAOImpl;
-import com.yourname.store.entities.RetailProduct;
-import com.yourname.store.util.DatabaseInitializer;
+import com.storemanagementsystem.store.dao.DAOException;
+import com.storemanagementsystem.store.dao.impl.ProductDAOImpl;
+import com.storemanagementsystem.store.entities.RetailProduct;
+import com.storemanagementsystem.store.util.DatabaseInitializer;
 
 import javax.swing.*;
 import javax.swing.table.TableRowSorter;
@@ -143,7 +143,6 @@ public class MainFrame extends JFrame {
                 "Potwierdź usunięcie", JOptionPane.YES_NO_OPTION);
         if (confirm == JOptionPane.YES_OPTION) {
             try {
-                // Używamy delete po ID (albo po obiekcie, jeśli wolisz)
                 new ProductDAOImpl().delete(productToDelete.getId());
                 tableModel.refresh();
                 clearForm();
@@ -174,7 +173,6 @@ public class MainFrame extends JFrame {
     }
 }
 
-// Klasa pomocnicza do walidacji formularza
 class ValidationException extends Exception {
     public ValidationException(String message) {
         super(message);
